@@ -13,32 +13,32 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp">
 
-            <ImageView
-                android:id="@+id/imageView2"
+             <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgProfile"
                 android:layout_width="59dp"
                 android:layout_height="81dp"
-                tools:srcCompat="@tools:sample/avatars" />
+                tools:srcCompat="@drawable/nophoto" />
 
             <TextView
-                android:id="@+id/textView6"
+                android:id="@+id/tweetTv"
                 android:layout_width="318dp"
                 android:layout_height="48dp"
                 android:layout_marginStart="6dp"
                 android:layout_marginLeft="6dp"
                 android:layout_marginTop="35dp"
-                android:layout_toEndOf="@+id/imageView2"
-                android:layout_toRightOf="@+id/imageView2"
+                android:layout_toEndOf="@+id/imgProfile"
+                android:layout_toRightOf="@+id/imgProfile"
                 android:text="TextView" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/nameTv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="6dp"
                 android:layout_marginLeft="6dp"
                 android:layout_marginTop="12dp"
-                android:layout_toEndOf="@+id/imageView2"
-                android:layout_toRightOf="@+id/imageView2"
+                android:layout_toEndOf="@+id/imgProfile"
+                android:layout_toRightOf="@+id/imgProfile"
                 android:text="TextView" />
 
             <ImageView
@@ -48,19 +48,19 @@
                 android:layout_marginStart="3dp"
                 android:layout_marginLeft="3dp"
                 android:layout_marginTop="12dp"
-                android:layout_toEndOf="@+id/textView2"
-                android:layout_toRightOf="@+id/textView2"
+                android:layout_toEndOf="@+id/nameTv"
+                android:layout_toRightOf="@+id/nameTv"
                 app:srcCompat="@drawable/ic_verified_user_black_24dp" />
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/usernameTv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="89dp"
                 android:layout_marginLeft="89dp"
                 android:layout_marginTop="12dp"
-                android:layout_toEndOf="@+id/imageView2"
-                android:layout_toRightOf="@+id/imageView2"
+                android:layout_toEndOf="@+id/imgProfile"
+                android:layout_toRightOf="@+id/imgProfile"
                 android:text="TextView" />
 
             <ImageView
@@ -75,14 +75,14 @@
                 app:srcCompat="@drawable/ic_verified_user_black_24dp" />
 
             <TextView
-                android:id="@+id/Date"
+                android:id="@+id/timeTv"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
                 android:layout_gravity="right"
                 android:layout_marginStart="290dp"
                 android:layout_marginLeft="290dp"
-                android:layout_toEndOf="@+id/imageView2"
-                android:layout_toRightOf="@+id/imageView2"
+                android:layout_toEndOf="@+id/imgProfile"
+                android:layout_toRightOf="@+id/imgProfile"
                 android:gravity="center|right"
                 android:text="10"
                 android:textStyle="bold" />
@@ -91,7 +91,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
-                android:layout_below="@+id/imageView2"
+                android:layout_below="@+id/imgProfile"
                 android:layout_marginTop="17dp"
                 android:gravity="fill_horizontal"
                 android:orientation="horizontal"
@@ -112,7 +112,7 @@
                     app:srcCompat="@drawable/ic_menu_share" />
 
                 <TextView
-                    android:id="@+id/date"
+                    android:id="@+id/commentNoTv"
                     android:layout_width="wrap_content"
                     android:layout_height="36dp"
                     android:layout_gravity="right"
@@ -135,7 +135,7 @@
                     app:srcCompat="@drawable/ic_icon_twitter_home" />
 
                 <TextView
-                    android:id="@+id/date2"
+                    android:id="@+id/retweetNoTv"
                     android:layout_width="wrap_content"
                     android:layout_height="36dp"
                     android:layout_gravity="right"
@@ -158,7 +158,7 @@
                     app:srcCompat="@drawable/ic_notifications_black_24dp" />
 
                 <TextView
-                    android:id="@+id/date3"
+                    android:id="@+id/likesNoTv"
                     android:layout_width="wrap_content"
                     android:layout_height="36dp"
                     android:layout_gravity="right"
