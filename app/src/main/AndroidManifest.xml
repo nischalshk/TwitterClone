@@ -20,24 +20,7 @@
             android:label="@string/title_activity_btm_nav">
 
         </activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".activities.LoginActivity"></activity>
-        <activity android:name=".activities.SignupActivity" />
-        <activity android:name=".activities.CreateAccountActivity" />
-        <activity android:name=".activities.LoginOrSignUpActivity" />
-        <activity android:name=".activities.PasswordActivity" />
-        <activity android:name=".activities.PolicyActivity" />
-        <activity android:name=".activities.SelectPictureActivity" />
-        <activity android:name=".activities.VerifyCodeActivity" />
 
-        <activity android:name=".activities.SplashActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-        </activity>
     </application>
 
 </manifest>
