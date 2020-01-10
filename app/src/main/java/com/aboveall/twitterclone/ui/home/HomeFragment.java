@@ -37,15 +37,15 @@ public class HomeFragment extends Fragment {
         // Create a list of contacts to display in RecyclerView
         List<Tweets> tweetsList = new ArrayList<>();
         // Adding all the contacts object in list
-        tweetsList.add(new Tweets("Raju Shrestha" ,"9801234567","123","1",1,1,1, R.drawable.man1));
-        tweetsList.add(new Tweets("Raju Shrestha" ,"9801234567","123","1",1,1,1, R.drawable.man1));
-        tweetsList.add(new Tweets("Raju Shrestha" ,"9801234567","123","1",1,1,1, R.drawable.man1));
-        tweetsList.add(new Tweets("Raju Shrestha" ,"9801234567","123","1",1,1,1, R.drawable.man1));
-        tweetsList.add(new Tweets("Raju Shrestha" ,"9801234567","123","1",1,1,1, R.drawable.man1));
-        tweetsList.add(new Tweets("Raju Shrestha" ,"9801234567","123","1",1,1,1, R.drawable.man1));
-        tweetsList.add(new Tweets("Raju Shrestha" ,"9801234567","123","1",1,1,1, R.drawable.man1));
-        tweetsList.add(new Tweets("Raju Shrestha" ,"9801234567","123","1",1,1,1, R.drawable.man1));
-        tweetsList.add(new Tweets("Raju Shrestha" ,"9801234567","123","1",1,1,1, R.drawable.man1));
+        tweetsList.add(new Tweets("Donald J. Trump" ,"TheRealOne","Heading to 2020 with a bang","1hr",112,1221,200, R.drawable.don));
+        tweetsList.add(new Tweets("Chris Do" ,"TheBaldOne","123","1",14,14,11, R.drawable.man1));
+        tweetsList.add(new Tweets("Narendra Modi" ,"9801234567","123","1",1,1,1, R.drawable.modi));
+        tweetsList.add(new Tweets("Donald J. Trump" ,"TheRealOne","123","30min",12,112,102, R.drawable.don));
+        tweetsList.add(new Tweets("Kp Sharma Oli" ,"Oli","123","1",1,1,1, R.drawable.kp));
+        tweetsList.add(new Tweets("Barack Obama" ,"ObamaO","The catastrophic fires in Australia are the latest example of the very real and very urgent consequences of climate change.","11",11,123,114, R.drawable.obama));
+        tweetsList.add(new Tweets("Chris Do" ,"9801234567","123","1",1,1,1, R.drawable.man1));
+        tweetsList.add(new Tweets("Donald J. Trump" ,"TheRealOne","123","1",1,1,1, R.drawable.don));
+        tweetsList.add(new Tweets("Barack Obama" ,"ObamaO","It’s on us to stay focused and protect the one planet we’ve got for the next generation","15",14,11,15, R.drawable.obama));
 
         TweetAdapter tweetsAdapter = new TweetAdapter(getActivity(), tweetsList);
         recylcerTweet.setAdapter(tweetsAdapter);

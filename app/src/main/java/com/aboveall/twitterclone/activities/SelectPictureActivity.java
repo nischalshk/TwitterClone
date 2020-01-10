@@ -1,5 +1,6 @@
 package com.aboveall.twitterclone.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -42,7 +43,9 @@ public class SelectPictureActivity extends AppCompatActivity {
         btnNextSPA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent intent = new Intent()
+
+                Intent intent = new Intent(SelectPictureActivity.this, LoginActivity.class);
+                startActivity(intent);
             }
         });
     }

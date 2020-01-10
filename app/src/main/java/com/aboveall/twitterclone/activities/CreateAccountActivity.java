@@ -49,7 +49,7 @@ public class CreateAccountActivity extends AppCompatActivity {
                 }
                 else{
                     btnNextCAA.setClickable(true);
-                    Intent intent = new Intent(CreateAccountActivity.this, PolicyActivity.class);
+                    Intent intent = new Intent(CreateAccountActivity.this, PasswordActivity.class);
                     intent.putExtra("Name", name);
                     intent.putExtra("Email",email);
                     startActivity(intent);

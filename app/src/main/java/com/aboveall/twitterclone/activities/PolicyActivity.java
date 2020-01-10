@@ -53,7 +53,7 @@ public class PolicyActivity extends AppCompatActivity {
         btnImageBackPA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(PolicyActivity.this, CreateAccountActivity.class);
+                Intent intent = new Intent(PolicyActivity.this, LoginActivity.class);
                 startActivity(intent);
             }
         });
