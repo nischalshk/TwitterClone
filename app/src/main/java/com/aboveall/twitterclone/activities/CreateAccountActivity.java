@@ -23,12 +23,12 @@ public class CreateAccountActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_create_account);
+        setContentView(R.layout.act_create1);
 
-        edtName = findViewById(R.id.edtName);
-        edtEmailorPhone = findViewById(R.id.edtPhoneOrEmail);
+        edtName = findViewById(R.id.Cusername);
+        edtEmailorPhone = findViewById(R.id.Cemail);
         txtEmailorPhone = findViewById(R.id.btnPhoneOrEmail);
-        btnNextCAA = findViewById(R.id.btnNextCAA);
+        btnNextCAA = findViewById(R.id.Csignup);
         btnImageBackCCA = findViewById(R.id.imagebtnbackCAA);
 
         edtEmailorPhone.setOnClickListener(new View.OnClickListener() {

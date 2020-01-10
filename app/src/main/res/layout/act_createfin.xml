@@ -30,7 +30,7 @@
             android:layout_height="45dp"
             android:layout_gravity="center"
             android:scaleType="fitCenter"
-            android:src="@drawable/ic_twitter_logo_blue"
+            app:srcCompat="@drawable/ic_twitter_logo_blue"
             android:layout_centerInParent="true"
             />
     </RelativeLayout>

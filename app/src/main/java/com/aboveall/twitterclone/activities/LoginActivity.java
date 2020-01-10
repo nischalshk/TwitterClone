@@ -28,7 +28,7 @@ public class LoginActivity extends AppCompatActivity {
 
         etUsername = findViewById(R.id.etUsername);
         etPassword = findViewById(R.id.etPassword);
-        tvSignup = findViewById(R.id.tvSignup);
+        //tvSignup = findViewById(R.id.tvSignup);
         btnLogin = findViewById(R.id.btnLogin);
 
         tvSignup.setOnClickListener(new View.OnClickListener() {

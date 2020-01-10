@@ -28,7 +28,7 @@
             android:layout_height="45dp"
             android:layout_gravity="center"
             android:scaleType="fitCenter"
-            android:src="@drawable/ic_twitter_logo_blue"
+            app:srcCompat="@drawable/ic_twitter_logo_blue"
             android:layout_centerInParent="true"
             />
     </RelativeLayout>
@@ -42,7 +42,7 @@
         android:layout_margin="50dp"
         />
     <EditText
-        android:id="@+id/SN_username"
+        android:id="@+id/Cusername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginRight="50dp"
@@ -54,7 +54,7 @@
         android:fontFamily="@font/roboto"
         />
     <EditText
-        android:id="@+id/SN_email"
+        android:id="@+id/Cemail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginRight="50dp"
@@ -91,7 +91,7 @@
                 android:textSize="20sp"
                 android:visibility="visible" />
             <Button
-                android:id="@+id/btn_FS_signup"
+                android:id="@+id/Csignup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Next"
