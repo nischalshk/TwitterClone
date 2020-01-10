@@ -6,9 +6,7 @@ import android.os.Handler;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-
 import com.aboveall.twitterclone.R;
-
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -21,10 +19,10 @@ public class SplashActivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
+                Intent intent = new Intent(SplashActivity.this, GettingStartedActivity.class);
                 startActivity(intent);
                 finish();
             }
-        },2000);
+        },1000);
     }
 }

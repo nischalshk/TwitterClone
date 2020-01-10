@@ -2,7 +2,6 @@ package com.aboveall.twitterclone.model;
 
 public class Tweets {
 
-
     private String name;
     private String username;
     private String tweet;
@@ -87,6 +86,5 @@ public class Tweets {
     public void setImage(int image) {
         this.image = image;
     }
-
 
 }

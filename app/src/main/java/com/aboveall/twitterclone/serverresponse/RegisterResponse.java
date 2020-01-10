@@ -1,11 +1,10 @@
 package com.aboveall.twitterclone.serverresponse;
 
-public class SignUpResponse {
-
+public class RegisterResponse {
     private String status;
     private String token;
 
-    public SignUpResponse(String status, String token) {
+    public RegisterResponse(String status, String token) {
         this.status = status;
         this.token = token;
     }
