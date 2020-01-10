@@ -16,12 +16,13 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.study.twitter.R;
-import com.study.twitter.activities.webviewActivities.WebViewCookie;
-import com.study.twitter.activities.webviewActivities.WebViewPO;
-import com.study.twitter.activities.webviewActivities.WebViewPP;
-import com.study.twitter.activities.webviewActivities.WebViewTerms;
-import com.study.twitter.model.DataTransfer;
+import com.aboveall.twitterclone.R;
+import com.aboveall.twitterclone.activities.webviewActivities.WebViewCookie;
+import com.aboveall.twitterclone.activities.webviewActivities.WebViewPO;
+import com.aboveall.twitterclone.activities.webviewActivities.WebViewPP;
+import com.aboveall.twitterclone.activities.webviewActivities.WebViewTerms;
+import com.aboveall.twitterclone.model.DataTransfer;
+
 
 public class RegisterActivityThirdStep extends AppCompatActivity {
     private TextView textView3, etRegNameFinal, etRegEmailFinal;

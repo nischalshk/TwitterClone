@@ -8,9 +8,9 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.aboveall.twitterclone.R;
+import com.aboveall.twitterclone.model.DataTransfer;
 import com.google.android.material.textfield.TextInputLayout;
-import com.study.twitter.R;
-import com.study.twitter.model.DataTransfer;
 
 import java.util.regex.Pattern;
 

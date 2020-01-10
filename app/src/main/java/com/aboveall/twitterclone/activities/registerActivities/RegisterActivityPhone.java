@@ -9,10 +9,10 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.aboveall.twitterclone.R;
+import com.aboveall.twitterclone.activities.GettingStartedActivity;
+import com.aboveall.twitterclone.model.DataTransfer;
 import com.google.android.material.textfield.TextInputLayout;
-import com.study.twitter.R;
-import com.study.twitter.activities.GettingStartedActivity;
-import com.study.twitter.model.DataTransfer;
 
 public class RegisterActivityPhone extends AppCompatActivity {
     private ImageView imgBtnBack;

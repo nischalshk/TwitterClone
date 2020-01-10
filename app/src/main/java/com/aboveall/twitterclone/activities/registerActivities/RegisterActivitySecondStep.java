@@ -9,8 +9,9 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.study.twitter.R;
-import com.study.twitter.activities.webviewActivities.WebViewHelp;
+import com.aboveall.twitterclone.R;
+import com.aboveall.twitterclone.activities.webviewActivities.WebViewHelp;
+
 
 public class RegisterActivitySecondStep extends AppCompatActivity {
     private TextView tvHelp;

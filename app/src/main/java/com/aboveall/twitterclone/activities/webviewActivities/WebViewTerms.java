@@ -5,7 +5,8 @@ import android.webkit.WebView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.study.twitter.R;
+import com.aboveall.twitterclone.R;
+
 
 public class WebViewTerms extends AppCompatActivity {
     private WebView webView;

@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.aboveall.twitterclone.BtmNav;
 import com.aboveall.twitterclone.R;
 import com.aboveall.twitterclone.activities.registerActivities.RegisterActivityEmail;
 import com.aboveall.twitterclone.bll.LoginBLL;
@@ -68,7 +69,7 @@ public class LoginActivity extends AppCompatActivity implements PopupMenu.OnMenu
         LoginBLL loginBLL = new LoginBLL();
         StrictModeClass.StrictMode();
         if (loginBLL.checkUser(username, password)) {
-            Intent intent = new Intent(LoginActivity.this,DashboardActivity.class);
+            Intent intent = new Intent(LoginActivity.this, SplashActivity.class);
             startActivity(intent);
             finish();
         } else {

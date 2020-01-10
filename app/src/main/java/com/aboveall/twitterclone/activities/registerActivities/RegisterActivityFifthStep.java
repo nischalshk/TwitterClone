@@ -15,15 +15,15 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.loader.content.CursorLoader;
 
-import com.study.twitter.R;
-import com.study.twitter.activities.LoginActivity;
-import com.study.twitter.api.UsersAPI;
-import com.study.twitter.model.DataTransfer;
-import com.study.twitter.model.Users;
-import com.study.twitter.serverResponse.ImageResponse;
-import com.study.twitter.serverResponse.RegisterResponse;
-import com.study.twitter.strictMode.StrictModeClass;
-import com.study.twitter.url.Url;
+import com.aboveall.twitterclone.R;
+import com.aboveall.twitterclone.activities.LoginActivity;
+import com.aboveall.twitterclone.api.UsersAPI;
+import com.aboveall.twitterclone.model.DataTransfer;
+import com.aboveall.twitterclone.model.Users;
+import com.aboveall.twitterclone.serverresponse.ImageResponse;
+import com.aboveall.twitterclone.serverresponse.RegisterResponse;
+import com.aboveall.twitterclone.strictmode.StrictModeClass;
+import com.aboveall.twitterclone.url.Url;
 
 import java.io.File;
 import java.io.IOException;
@@ -134,6 +134,8 @@ public class RegisterActivityFifthStep extends AppCompatActivity {
         String password = DataTransfer.password;
         String email = DataTransfer.email;
         String phone = DataTransfer.phone;
+
+
 
         Users users = new Users(username, password, email, phone, imgName);
         UsersAPI usersAPI = Url.getInstance().create(UsersAPI.class);

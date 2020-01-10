@@ -15,8 +15,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.study.twitter.R;
-import com.study.twitter.activities.registerActivities.RegisterActivityEmail;
+import com.aboveall.twitterclone.R;
+import com.aboveall.twitterclone.activities.registerActivities.RegisterActivityEmail;
+
 
 public class GettingStartedActivity extends AppCompatActivity {
     private Button btnCreateAccount;

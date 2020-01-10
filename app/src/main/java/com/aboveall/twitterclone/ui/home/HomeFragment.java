@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.aboveall.twitterclone.R;
 import com.aboveall.twitterclone.adapter.TweetAdapter;
+import com.aboveall.twitterclone.model.Tweets;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.aboveall.twitterclone.R;
+import com.aboveall.twitterclone.model.Tweets;
 
 import java.util.List;
 
