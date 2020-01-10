@@ -105,7 +105,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            android:background="@drawable/roundedbutton"
+            android:background="@drawable/round_buttton"
             android:text="Sign up"
             android:textColor="#FFFFFF" />
     </LinearLayout>

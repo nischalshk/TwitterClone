@@ -6,8 +6,6 @@
 
         <dimen name="zero_margin_when_normal">0dp</dimen>
 
-
-
         <dimen name="app_bar_height_image_view">180dp</dimen>
         <dimen name="big_activity_margin_vertical">96dp</dimen>
 

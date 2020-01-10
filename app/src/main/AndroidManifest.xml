@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.aboveall.twitterclone">
 
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,18 +18,26 @@
         <activity
             android:name=".BtmNav"
             android:label="@string/title_activity_btm_nav">
-            <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
-        <activity android:name=".activities.LoginActivity">
+        <activity android:name=".activities.LoginActivity"></activity>
+        <activity android:name=".activities.SignupActivity" />
+        <activity android:name=".activities.CreateAccountActivity" />
+        <activity android:name=".activities.LoginOrSignUpActivity" />
+        <activity android:name=".activities.PasswordActivity" />
+        <activity android:name=".activities.PolicyActivity" />
+        <activity android:name=".activities.SelectPictureActivity" />
+        <activity android:name=".activities.VerifyCodeActivity" />
+
+        <activity android:name=".activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
-        <activity android:name=".activities.SignupActivity" />
-
     </application>
 
 </manifest>
