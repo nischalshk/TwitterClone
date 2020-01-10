@@ -7,6 +7,31 @@
     android:orientation="vertical"
     >
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imagebtnbackCAA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="@drawable/round_image_button"
+            android:foregroundGravity="left"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_twitter_logo_blue" />
+    </RelativeLayout>
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"

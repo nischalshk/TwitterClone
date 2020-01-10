@@ -5,19 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    >
+    tools:context=" ">
+
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <ImageButton
-            android:id="@+id/imagebtnbackCAA"
+            android:id="@+id/imagebtnbackPA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="left"
+
             android:background="@drawable/round_image_button"
             android:foregroundGravity="left"
+            android:clickable="true"
             android:padding="10dp"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
@@ -42,71 +44,48 @@
         android:layout_margin="50dp"
         />
     <EditText
-        android:id="@+id/SN_username"
+        android:id="@+id/edtconfirmName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginRight="50dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginBottom="50dp"
         android:layout_gravity="center"
-        android:hint="Name"
         android:fontFamily="@font/roboto"
         />
     <EditText
-        android:id="@+id/SN_email"
+        android:id="@+id/edtconfirmEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginRight="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginBottom="50dp"
         android:layout_gravity="center"
-        android:hint="Email address"
         android:fontFamily="@font/roboto"
         />
-
-    <LinearLayout
+    <TextView
+        android:id="@+id/txtPolicy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/policy"
+        android:textColor="#000000"
+        android:textSize="16.5sp"
+        android:fontFamily="@font/roboto"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:id="@+id/btnConfirmSignUp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
-        <RelativeLayout
-            android:layout_gravity="bottom"
-            android:layout_width="match_parent"
-            android:layout_marginBottom="10dp"
-            android:layout_height="wrap_content">
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@android:color/black" />
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/round_buttton"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="#FFFFFF"
+        android:text="Sign Up"
 
-            <TextView
-                android:id="@+id/btnPhoneOrEmail"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="15dp"
-                android:fontFamily="@font/roboto"
-                android:text="Use phone instead"
-                android:textColor="#38A1F3"
-                android:textSize="20sp"
-                android:visibility="visible" />
-            <Button
-                android:id="@+id/btn_FS_signup"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Next"
-                android:textSize="20dp"
-                android:textColor="#FFFFFF"
-                android:textAllCaps="false"
-                android:layout_marginTop="10dp"
-                android:fontFamily="@font/roboto_bold"
-                android:background="@drawable/round_buttton"
-                android:layout_alignParentRight="true"
-                android:layout_marginRight="20dp"
-                android:paddingRight="10dp"
-                android:paddingLeft="10dp"
-                />
-        </RelativeLayout>
-
-    </LinearLayout>
+        />
 </LinearLayout>
